@@ -5,6 +5,7 @@
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ff5733",
+  "description": "A simple Pomodoro timer to help you manage your work and break intervals efficiently.",
   "icons": [
     {
       "src": "icon.png",
