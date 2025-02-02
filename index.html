@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pomodoro Timer</h1>
+        <div id="timer">25:00</div>
+        <button id="start-pause">Start</button>
+        <button id="reset">Reset</button>
+        <button id="toggle-mode">Switch to Break</button>
+        <button id="adjust-pomodoro">Set Pomodoro</button>
+        <button id="adjust-break">Set Break</button>
+    </div>
+    <audio id="alarm-sound" src="alarm.mp3"></audio>
+    <script src="script.js"></script>
+    <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js');
+  }
+</script>
+</body>
+</html>
